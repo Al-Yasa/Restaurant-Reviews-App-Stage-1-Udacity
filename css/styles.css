@@ -510,7 +510,7 @@ nav h1 a {
 .inside #restaurant-address {
   font-size: 0.8rem;
   margin: 0 0 15px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .inside #restaurant-hours {
@@ -519,6 +519,7 @@ nav h1 a {
 
 .inside #restaurant-hours tr td:first-of-type {
   text-align: left;
+  font-weight: bold;
 }
 
 .inside #restaurant-hours td {
@@ -540,6 +541,11 @@ nav h1 a {
   .inside #map-container {
     height: 60%;
     flex-basis: 50%;
+  }
+
+  .inside #restaurant-hours {
+    height: 70%;
+    width: 80%;
   }
 }
 

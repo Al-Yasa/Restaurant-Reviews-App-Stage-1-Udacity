@@ -148,11 +148,14 @@ createRestaurantHTML = (restaurant) => {
 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
+  image.alt = '';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
 
   const textOverlay = document.createElement('a');
   textOverlay.href = DBHelper.urlForRestaurant(restaurant);
+  textOverlay.tabIndex = "5";
+  textOverlay.setAttribute('aria-label', restaurant.name + ' in ' + restaurant.neighborhood);
   textOverlay.className = 'text-overlay';
   li.append(textOverlay);
 
