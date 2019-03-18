@@ -1,6 +1,16 @@
+/**
+ * Add a Service Worker.
+ */
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/service_worker.js')
+    .then(() => console.log('Service Worker Registered'))
+    .catch(error => console.log(error))
+}
+
 let restaurants,
-  neighborhoods,
-  cuisines
+    neighborhoods,
+    cuisines
 var newMap
 var markers = []
 
