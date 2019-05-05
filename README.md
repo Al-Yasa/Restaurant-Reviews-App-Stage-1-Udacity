@@ -2,6 +2,15 @@
 
 This is a project for the Udacity Front-End Nanodegree called **Restaurant Reviews App - Stage 1**.
 
+![Restaurant Reviews](img/favicon.png "Restaurant Reviews")
+
+![Restaurant Reviews Preview 01](img/app_preview01.jpg "Restaurant Reviews Preview 01")
+
+![Restaurant Reviews Preview 02](img/app_preview02.jpg "Restaurant Reviews Preview 02")
+
+![Restaurant Reviews Preview Mobile 01](img/app_preview_mobile01.jpg "Restaurant Reviews Preview Mobile 01")
+![Restaurant Reviews Preview Mobile 02](img/app_preview_mobile02.jpg "Restaurant Reviews Preview Mobile 02")
+
 ## Usage
 
 You can run the app locally.
